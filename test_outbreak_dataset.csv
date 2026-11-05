@@ -1,0 +1,5 @@
+disease,state,district,locality,reported_cases,active_cases,recoveries,deaths,risk_level,source_name,description,latitude,longitude
+Dengue,Maharashtra,Mumbai,Andheri,150,45,100,5,High,Mumbai Health Dept,Dengue outbreak in Andheri area with rising cases,19.1136,72.8697
+Malaria,Karnataka,Bengaluru,Whitefield,89,30,55,4,Medium,Karnataka State Health,Malaria cases reported in Whitefield region,12.9698,77.7500
+Typhoid,Tamil Nadu,Chennai,T Nagar,65,20,43,2,Medium,Chennai Corporation,Typhoid cases in T Nagar locality,13.0418,80.2341
+Chikungunya,Kerala,Thiruvananthapuram,Pattom,42,15,25,2,Low,Kerala Health Services,Chikungunya outbreak in Pattom area,8.5072,76.9529

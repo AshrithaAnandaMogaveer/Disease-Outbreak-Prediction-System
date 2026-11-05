@@ -1,0 +1,14 @@
+test_name,category,status,detail,evidence
+boundary_low,formula,PASS,"score=30.0, level=Low","expected_score=30.0, expected_level=Low"
+boundary_medium,formula,PASS,"score=60.0, level=Medium","expected_score=60.0, expected_level=Medium"
+boundary_high,formula,PASS,"score=80.0, level=High","expected_score=80.0, expected_level=High"
+climate_adjustment_uses_rainfall_and_humidity,formula,PASS,"score=8.2, level=Low","expected_score=8.2, expected_level=Low"
+temperature_ignored_by_formula,formula,PASS,"score=0.0, level=Low","expected_score=0.0, expected_level=Low"
+health_data_rejects_negative_new_cases,validation,PASS,Validation rejected invalid input.,ValidationError
+population_data_rejects_invalid_area_type,validation,PASS,Validation rejected invalid input.,ValidationError
+environment_data_rejects_humidity_above_100,validation,PASS,Validation rejected invalid input.,ValidationError
+rag_rejects_unsupported_diagnosis_requests,rag,PASS,Guardrail triggered.,"insufficient reliable information: I couldn't find sufficiently reliable information to answer that confidently. I can explain general health guidance and public-health context, but I won't infer a diagnosis or fabricate a risk score."
+rag_ranking_prefers_region_relevant_recent_docs,rag,PASS,Region-aware ranking worked.,winner=Air quality alert in Bengaluru; freshness=recent
+alert_delivery_creates_single_notification_per_user,alert,PASS,One notification created for one user.,created=1; notifications=1
+full_auth_endpoint_checks_against_live_database,auth,SKIPPED,Protected endpoint testing against the application database was skipped to avoid writing to the production SQLite database during evaluation.,Used schema-level validation and in-memory database checks instead.
+historical_outbreak_accuracy_evaluation,prediction,SKIPPED,"No historical confirmed outbreak labels were found in the project or sample datasets, so no true forecasting accuracy metrics can be computed.",Dataset contains risk categories only; no ground-truth outbreak outcome field is present.

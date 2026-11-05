@@ -1,0 +1,4 @@
+disease_name,state,district,locality,observation_date,reported_cases,description,source_reference
+Dengue,Maharashtra,Mumbai,Andheri,2024-03-15,25,Multiple fever cases reported in the area with mosquito breeding sites identified,Local Hospital Report
+Malaria,Kerala,Thiruvananthapuram,Kazhakootam,2024-03-20,12,Fever and chills observed in several patients,Community Health Center
+Chikungunya,Tamil Nadu,Chennai,T Nagar,2024-03-18,18,Joint pain and high fever cases increasing,Government Medical College

@@ -1,0 +1,13 @@
+{
+  "status": "not_measured",
+  "dataset_observations": 0,
+  "target_label": "confirmed_outbreak",
+  "evaluation_method": "not_applicable",
+  "test_period": "not_available",
+  "reason": "The project includes no historical labeled outbreak dataset with confirmed outcomes. The only available data are static risk categories or sample submissions and no true outbreak labels exist.",
+  "formula_consistency": {
+    "tested_cases": 5,
+    "pass_count": 5,
+    "fail_count": 0
+  }
+}

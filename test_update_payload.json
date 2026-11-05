@@ -1,0 +1,18 @@
+{
+  "disease": "Test Disease",
+  "state": "Maharashtra", 
+  "district": "Mumbai",
+  "locality": null,
+  "reported_cases": 100,
+  "active_cases": null,
+  "recoveries": null,
+  "deaths": null,
+  "risk_level": "Medium",
+  "source_name": "Test Source",
+  "source_reference": null,
+  "description": "This is a valid test description with more than ten characters as required by the backend validation",
+  "latitude": null,
+  "longitude": null,
+  "reporting_start": null,
+  "reporting_end": null
+}

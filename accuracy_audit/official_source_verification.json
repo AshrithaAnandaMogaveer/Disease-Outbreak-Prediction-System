@@ -1,0 +1,76 @@
+[
+  {
+    "name": "IDSP portal",
+    "url": "https://idsp.ncdc.gov.in/",
+    "status": "error",
+    "result": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "Karnataka Health Department",
+    "url": "https://ksdhs.karnataka.gov.in/",
+    "status": "error",
+    "result": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  {
+    "name": "NHM portal",
+    "url": "https://nhm.gov.in/",
+    "status": 200,
+    "result": "found_terms=dengue, outbreak, district, weekly",
+    "snippet": "<!DOCTYPE HTML> <html> <head> <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"> <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin> <link href=\"https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap\" rel=\"stylesheet\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <meta name=\"title\" content=\"Home :: National Health Mission\"/> <meta name=\"keywords\" content=\"Ministry of Health & Family Welfare-Government of India, Department, Health, Government, Govt, India, Delhi, Family, Welfare, Child, Mother, Disease, Heart, Eye, Ear, Blind\"/> <meta name=\"description\" content=\"Ministry of Health & Family Welfare-Government of India\"/> <meta name=\"author\" content=\"Ministry of Health & Family Welfare-Government of India\"/> <title>Home :: National Health Miss"
+  },
+  {
+    "name": "IMD portal",
+    "url": "https://www.imd.gov.in/",
+    "status": "error",
+    "result": "URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>"
+  },
+  {
+    "name": "Data.gov.in dengue search",
+    "url": "https://www.data.gov.in/search/site/dengue",
+    "status": 200,
+    "result": "found_terms=csv, download",
+    "snippet": "<!doctype html> <html data-n-head-ssr lang=\"en\" data-n-head=\"%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D\"> <head > <meta data-n-head=\"ssr\" charset=\"utf-8\"><meta data-n-head=\"ssr\" name=\"http-equiv\" content=\"text/html\"><meta data-n-head=\"ssr\" name=\"viewport\" content=\"width=device-width, initial-scale=1\"><meta data-n-head=\"ssr\" name=\"format-detection\" content=\"telephone=no\"><meta data-n-head=\"ssr\" data-hid=\"google-site-verification\" name=\"google-site-verification\" content=\"E_mHMxl8OOc7JXOce6JaGYnsHTczS2spGA35pac5-m0\"><meta data-n-head=\"ssr\" data-hid=\"description\" name=\"description\" content=\"Open Government Data Platform (OGD) India is a single-point of access to Resources in an open format published by Ministries/Departments/Organizations of GoI. Get details of Open Data Events, Visualizations, Blogs, and Infographics.\"><meta data-n-head=\"ssr\" data-hid=\"keywords\" name=\"keywords\" content=\"Open Government Data Platform, Open Government Data, OGD, Data Portal India, Open Data Portal, Ope"
+  },
+  {
+    "name": "Data.gov.in Karnataka dengue search",
+    "url": "https://www.data.gov.in/search/site/Karnataka%20dengue",
+    "status": 200,
+    "result": "found_terms=csv, download",
+    "snippet": "<!doctype html> <html data-n-head-ssr lang=\"en\" data-n-head=\"%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D\"> <head > <meta data-n-head=\"ssr\" charset=\"utf-8\"><meta data-n-head=\"ssr\" name=\"http-equiv\" content=\"text/html\"><meta data-n-head=\"ssr\" name=\"viewport\" content=\"width=device-width, initial-scale=1\"><meta data-n-head=\"ssr\" name=\"format-detection\" content=\"telephone=no\"><meta data-n-head=\"ssr\" data-hid=\"google-site-verification\" name=\"google-site-verification\" content=\"E_mHMxl8OOc7JXOce6JaGYnsHTczS2spGA35pac5-m0\"><meta data-n-head=\"ssr\" data-hid=\"description\" name=\"description\" content=\"Open Government Data Platform (OGD) India is a single-point of access to Resources in an open format published by Ministries/Departments/Organizations of GoI. Get details of Open Data Events, Visualizations, Blogs, and Infographics.\"><meta data-n-head=\"ssr\" data-hid=\"keywords\" name=\"keywords\" content=\"Open Government Data Platform, Open Government Data, OGD, Data Portal India, Open Data Portal, Ope"
+  },
+  {
+    "name": "search_query",
+    "query": "site:idsp.ncdc.gov.in dengue outbreak Karnataka weekly data",
+    "status": 202,
+    "match_count": 0,
+    "matches": []
+  },
+  {
+    "name": "search_query",
+    "query": "site:ksdhs.karnataka.gov.in dengue Karnataka district weekly report",
+    "status": 202,
+    "match_count": 0,
+    "matches": []
+  },
+  {
+    "name": "search_query",
+    "query": "site:nhm.gov.in dengue Karnataka district weekly bulletin pdf",
+    "status": 202,
+    "match_count": 0,
+    "matches": []
+  },
+  {
+    "name": "search_query",
+    "query": "site:imd.gov.in rainfall temperature Karnataka weekly district data",
+    "status": 202,
+    "match_count": 0,
+    "matches": []
+  },
+  {
+    "name": "search_query",
+    "query": "Karnataka dengue district weekly cases official government website",
+    "status": 202,
+    "match_count": 0,
+    "matches": []
+  }
+]

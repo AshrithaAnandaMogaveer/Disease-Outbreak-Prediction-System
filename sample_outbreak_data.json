@@ -1,0 +1,10 @@
+{
+  "disease_name": "Dengue",
+  "state": "Maharashtra",
+  "district": "Mumbai",
+  "locality": "Andheri",
+  "observation_date": "2024-03-15",
+  "reported_cases": "25",
+  "description": "Multiple fever cases reported in the area with mosquito breeding sites identified. Residents complaining of high fever, body ache, and rash.",
+  "source_reference": "Local Hospital Report - Andheri Medical Center"
+}

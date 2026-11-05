@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer utilities {
+  .glassmorphism {
+    @apply bg-white/70 backdrop-blur-lg border border-white/20 shadow-xl;
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 50%, #e0f2fe 100%);
+  }
+}
+
+@theme {
+  --color-primary-50: #f0fdf4;
+  --color-primary-100: #dcfce7;
+  --color-primary-200: #bbf7d0;
+  --color-primary-300: #86efac;
+  --color-primary-400: #4ade80;
+  --color-primary-500: #22c55e;
+  --color-primary-600: #16a34a;
+  --color-primary-700: #15803d;
+  --color-primary-800: #166534;
+  --color-primary-900: #14532d;
+}
+
+/* Markdown prose styling for chatbot */
+.prose {
+  @apply text-sm;
+}
+
+.prose p {
+  @apply my-2;
+}
+
+.prose ul {
+  @apply my-2 ml-4 list-disc;
+}
+
+.prose ol {
+  @apply my-2 ml-4 list-decimal;
+}
+
+.prose li {
+  @apply my-1;
+}
+
+.prose strong {
+  @apply font-semibold;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4 {
+  @apply font-bold mt-3 mb-2;
+}
+
+.prose h1 {
+  @apply text-lg;
+}
+
+.prose h2 {
+  @apply text-base;
+}
+
+.prose h3, .prose h4 {
+  @apply text-sm;
+}
+
+.prose code {
+  @apply bg-gray-100 px-1 py-0.5 rounded text-xs;
+}
+
+.prose hr {
+  @apply my-3 border-gray-300;
+}
+
+/* Risk highlight tags */
+.risk-high {
+  @apply bg-red-50 border-l-4 border-red-500 pl-3 py-1 my-2;
+}
+
+.risk-medium {
+  @apply bg-yellow-50 border-l-4 border-yellow-500 pl-3 py-1 my-2;
+}
+
+.risk-low {
+  @apply bg-green-50 border-l-4 border-green-500 pl-3 py-1 my-2;
+}
