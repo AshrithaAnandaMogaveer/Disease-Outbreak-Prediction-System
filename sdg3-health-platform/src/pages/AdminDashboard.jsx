@@ -802,6 +802,15 @@ function AddCaseTab({ token, onSaved }) {
     };
 
     try {
+      const hasLatitude = payload.latitude !== null;
+      const hasLongitude = payload.longitude !== null;
+      if (hasLatitude !== hasLongitude) {
+        throw new Error('Latitude and longitude must be provided together.');
+      }
+      if (hasLatitude && (payload.latitude < 6 || payload.latitude > 38 || payload.longitude < 68 || payload.longitude > 98)) {
+        throw new Error('Enter valid India coordinates: latitude 6–38 and longitude 68–98.');
+      }
+
       const r = await fetch(`${API}/api/admin/case-data`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },

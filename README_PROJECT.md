@@ -236,9 +236,8 @@ Create accounts via signup or use these test credentials:
 - Password: password123
 
 **Admin User:**
-- Email: admin@example.com
-- Password: admin123
-- Admin Secret: SDG3_ADMIN_2026
+- Username: SDG3_ADMIN
+- Password: SDG3_ADMIN_2026
 
 ### Testing Chatbot
 
